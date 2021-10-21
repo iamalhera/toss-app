@@ -9,7 +9,7 @@ checkButton.addEventListener('click',()=>{
     var binary = Math.round(num) ;
     // console.log(tossOptions.value);
     // console.log(binary);
-    if(Number(binary) = Number(tossOptions.value)){
+    if(Number(binary) === Number(tossOptions.value)){
         result.innerText = "You won!";
     }
     else{
