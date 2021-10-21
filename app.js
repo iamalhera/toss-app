@@ -10,9 +10,9 @@ checkButton.addEventListener('click',()=>{
     // console.log(tossOptions.value);
     // console.log(binary);
     if(Number(binary) === Number(tossOptions.value)){
-        result.innerText = "You won!";
+        result.innerText = "Congratulations! You won";
     }
     else{
-        result.innerText = "You lose!";
+        result.innerText = "Sorry! You lose";
     }
 })
